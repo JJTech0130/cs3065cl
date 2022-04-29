@@ -191,6 +191,14 @@
 				<key>Enabled</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4282384384</integer>
+				<key>Comment</key>
+				<string>MMIO 0xFF400000</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
 		</array>
 		<key>Patch</key>
 		<array>
