@@ -1304,7 +1304,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 alcid=1 -igfxcdc -igfxdvmt -igfxdbeo -igfxblr -igfxlspcon -igfxhdmidivs</string>
+				<string>-v debug=0x100 keepsyms=1 alcid=1 -igfxcdc -igfxdbeo -igfxblr -igfxlspcon -igfxhdmidivs</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
