@@ -265,6 +265,14 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AABSig==</data>
+				<key>enable-cdclk-frequency-fix</key>
+				<true/>
+				<key>enable-dbuf-early-optimizer</key>
+				<true/>
+				<key>enable-backlight-registers-fix</key>
+				<true/>
+				<key>enable-hdmi-dividers-fix</key>
+				<true/>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1304,7 +1312,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 alcid=1 -igfxcdc -igfxdbeo -igfxblr -igfxlspcon -igfxhdmidivs</string>
+				<string>-v debug=0x100 keepsyms=1 alcid=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
