@@ -264,7 +264,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AABSig==</data>
+				<data>AQBxig==</data>
 				<key>enable-cdclk-frequency-fix</key>
 				<true/>
 				<key>enable-dbuf-early-optimizer</key>
@@ -272,6 +272,8 @@
 				<key>enable-backlight-registers-fix</key>
 				<true/>
 				<key>enable-hdmi-dividers-fix</key>
+				<true/>
+				<key>enable-dvmt-calc-fix</key>
 				<true/>
 			</dict>
 		</dict>
@@ -1312,7 +1314,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 alcid=1 -igfxdvmt -noDC9</string>
+				<string>-v debug=0x100 keepsyms=1 alcid=1 -noDC9 igfxfw=2</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
